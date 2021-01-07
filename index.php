@@ -4,7 +4,8 @@
 
     <div class="containerabout" id = "about">
         <div class="mainpart">
-            <div class="card"><img src="/images/aboutcard.jpg" alt="image">
+            <div class="card">
+            <img src="/images/aboutcard.jpg" alt="image">
             </div>
             <div class="textabout">Duils mollis, est non commodo luctus, nisi erat portitor ligula, eget lacinia odio sem nec elit.</div>
         </div>
@@ -31,7 +32,7 @@
                     <div class="mySlides fade">
                     <span><?php get_template_part( 'template/card' );?></span>
                     <span><?php get_template_part( 'template/card' );?></span>
-                    <span><?php get_template_part( 'template/card' );?></span>
+                    <span>66666</span>
                     </div>
 
                     <div class="mySlides fade">
@@ -46,8 +47,10 @@
                 </div>
         </div>
 
-        <div>
-            <h3>Testimonials</h3>
+        <div class="testimonials">
+            <img src="images/Iconteam.jpg" alt="icon">
+            <h1>Testimonials</h1>
+         <?php get_template_part( 'template/testimonial' );?>
         </div>
     </div>
 </main>
